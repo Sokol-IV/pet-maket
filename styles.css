@@ -1,0 +1,18 @@
+.conteiner {
+    width: 1200px;
+    background: lightgray;
+}
+
+a {
+    color: dodgerblue;
+    margin-right: 20px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.phone {
+    width: 100px;
+}
+
