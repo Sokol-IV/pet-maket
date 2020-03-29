@@ -8,7 +8,8 @@
     width: 960px;
     height: 4000px;
     background: f4f1ec;
-    margin: 20px;
+    margin: auto;
+    padding: 20px;
      /*background: antiquewhite;*/
 }
 
@@ -78,7 +79,7 @@ h2 {
     margin-right: 0;
     position: absolute;
     top: 100px;
-    right: 140px;
+    right: 20px;
 }
 
 .zagolovok{
@@ -238,4 +239,26 @@ hr {
 
 figcaption a {
     color: #baa788;
+}
+
+.item3 {
+    width: 450px;
+    height: 410px;
+    float: left;
+    margin-right: 20px;
+    /*background: cadetblue;*/
+    margin-top: 20px;
+}
+
+.item4 {
+    width: 235px;
+    height: 410px;
+    float: left;
+    margin-right: 20px;
+    /*background: cadetblue;*/
+    margin-top: 20px;
+}
+
+.item4:nth-child(2n) {
+    margin-right: 0;
 }
