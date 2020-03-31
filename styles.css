@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    /*box-sizing: border-box;*/
+    box-sizing: border-box;
 }
 
 .wrapper {
@@ -104,30 +104,31 @@ input {
     height: 25px;
     border: 1px solid #baa788;
     border-radius: 5px;
-    margin-right: 155px;
+    margin-right: 135px;
+    padding: 5px;
 }
 
-button {
+.search-button {
     height: 15px;
     width: 15px;
     position: absolute;
     top: 5px;
-    right: 160px;
+    right: 145px;
     cursor: pointer;
 }
 
-button:before {
+.search-button:before {
     content: "\f002";
     font-family: FontAwesome;
     color: #baa788;
-    font-siz: 20px;
+    font-size: 15px;
     /*font-weight: bold;*/
 
 }
 
 
 .navigation2{
-    width: 100%;
+    width: 960px;
     text-align: justify;
     font-size: 20.55px;
     font-weight: bold;
@@ -261,4 +262,38 @@ figcaption a {
 
 .item4:nth-child(2n) {
     margin-right: 0;
+}
+
+.subscribe-form-container {
+    background: aliceblue;
+}
+
+.subscribe-form {
+    float: right;
+    width: 510px;
+
+}
+
+.subscribe-email-input {
+    width: 380px;
+    height: 35px;
+    display: block;
+    float: left;
+    margin: 0;
+    border-radius: 5px 0 0 5px;
+}
+
+.subscribe-button {
+    text-transform: uppercase;
+    width: 130px;
+    height: 35px;
+    float:right;
+    background: #f26b39;
+    display: block;
+    border-radius: 0 5px 5px 0;
+
+}
+
+.subscribe-text {
+    float: left;
 }
