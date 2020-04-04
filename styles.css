@@ -24,7 +24,9 @@ h2 {
     font-size: 2.6em;
 }
 
-
+h5 {
+    color: #baa788;
+}
 
 .clearfix:before, .clearfix:after {
     content: ' ';
@@ -104,7 +106,7 @@ input {
     height: 25px;
     border: 1px solid #baa788;
     border-radius: 5px;
-    margin-right: 135px;
+    margin-right: 235px;
     padding: 5px;
 }
 
@@ -178,9 +180,46 @@ article {
     font-weight: bold
 }
 
+.icons-share {
+    margin-top: 20px;
+}
 
 .icons {
-    margin-top: 10px;
+    width: 114px;
+    height: 22px;
+    background: lightgray;
+    border-radius: 3px;
+    float: left;
+    background-position: left center;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    text-align: bottom;
+    font-size: 0.8em;
+    color: #000000;
+}
+
+.mmm {
+    margin-left: 30px;
+}
+
+.share-little-tw {
+    background-image: url('./images/twitter-little.png');
+    background-size: 25% 90%;
+}
+
+.share-little-fb {
+    background-image: url('./images/fb-little.png');
+    background-size: 25% 90%;
+}
+
+.share-little-vk {
+    background-image: url('./images/vk-little.png');
+    background-size: 25% 100%;
+}
+
+.share-little-pint {
+    background-image: url('./images/pinterest.png');
+    background-size: 25% 100%;
 }
 
 span {
@@ -346,7 +385,18 @@ iframe {
 }
 
 .image-metro {
-    background: transparent;
+    background: none;
+}
+
+.paveletskaya {
+    width: 133px;
+height: 21px;
+opacity: -1;
+color: #ffffff;
+font-family: "Fira Sans - Semi Bold";
+font-size: 24px;
+font-weight: 400;
+line-height: 20px;
 }
 
 .share {
