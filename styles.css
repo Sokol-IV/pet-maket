@@ -227,6 +227,12 @@ button {
     font-size: 20.55px;
 }
 
+/* **** Main content styles **** */
+
+.main-content__section {
+    padding: 20px;
+}
+
 .content3 {
     width: 960px;
     margin: 20px;
