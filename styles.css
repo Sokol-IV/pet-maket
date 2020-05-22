@@ -48,6 +48,12 @@ h5 {
     width: calc(100% * 9 / 12);
 }
 
+.block-4 {
+    float: left;
+    padding: 0 10px;
+    width: calc(100% * 4 / 12);
+}
+
 /* **** General styles **** */
 
 body {
@@ -194,14 +200,25 @@ button {
 
 
 .navigation2 {
-    /* width: 960px; */
+    width: 960px;
     font-weight: bold;
 }
+
 
 .navigation2 .menu {
     text-align: justify;
     font-size: 0;
 }
+
+.navigation2 .menu::after {
+    content: "";
+    display: inline-block;
+    visibility: hidden;
+    opacity: 0;
+    width: 100%;
+    height: 0;
+}
+
 
 .navigation2 .menu li {
     display: inline-block;
@@ -314,12 +331,12 @@ span {
 }
 
 .item {
-    width: 225px;
-    height: 455px;
-    float: left;
-    margin-right: 20px;
+    /* width: 225px; */
+    /* height: 455px; */
+    /* float: left; */
+    /* margin-right: 20px; */
     /*background: cadetblue;*/
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 
 .item:nth-child(4n+1) {
@@ -336,13 +353,13 @@ hr {
 }
 
 .item2 {
-    width: 306.5px;
-    height: 250px;
-    float: left;
-    margin-right: 20px;
-    margin-top: 30px;
+    /* width: 306.5px; */
+    /* height: 250px; */
+    /* float: left; */
+    /* margin-right: 20px; */
+    /* margin-top: 30px; */
     /*background: cadetblue;*/
-    line-height: 1.5;
+    /* line-height: 1.5; */
 }
 
 .item2:nth-child(3n) {
