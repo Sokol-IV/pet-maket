@@ -17,6 +17,11 @@ h2 {
     font-size: 2.6em;
 }
 
+h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
 h5 {
     color: #baa788;
 }
@@ -30,6 +35,18 @@ h5 {
     clear: both;
     visibility: hidden;
     height: 0;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.pb-40 {
+    padding-bottom: 40px;
 }
 
 .row {
@@ -268,6 +285,7 @@ button {
     position: relative;
     width: 100%;
     padding-bottom: 41.4285714%;
+    background-color: red;
 }
 
 .content-post__image-main img {
@@ -304,9 +322,9 @@ button {
 }
 
 
-article {
+/* article {
     margin-top: 10px;
-}
+} */
 
 .author {
     color: #baa788;
@@ -403,23 +421,18 @@ hr {
     font-size: 20px;
 }
 
-.item2 {
-    /* width: 306.5px; */
-    /* height: 250px; */
-    /* float: left; */
-    /* margin-right: 20px; */
-    /* margin-top: 30px; */
-    /*background: cadetblue;*/
-    /* line-height: 1.5; */
-}
-
-.item2:nth-child(3n) {
-    margin-right: 0;
-}
-
-.imgleft {
+.author-avatar {
     float: left;
-    margin-right: 20px;
+    width: 80px;
+}
+
+.author-avatar img {
+    width: 100%;
+    display: block;
+}
+
+.author-data {
+    margin-left: 100px;
 }
 
 figcaption a {
