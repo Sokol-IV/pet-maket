@@ -14,7 +14,7 @@ h1 {
 }
 
 h2 {
-    font-size: 2.6em;
+    font-size: 36px;
 }
 
 h3 {
@@ -296,6 +296,23 @@ button {
     object-fit: cover;
 }
 
+
+.content-post__image-cont {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    padding-bottom: 50.49261084%;
+    background-color: red;
+}
+
+.content-post__image-cont img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
 .content3 {
     width: 960px;
     margin: 20px;
@@ -485,13 +502,13 @@ figcaption a {
 
 .subscribe-button {
     text-transform: uppercase;
-    width: 139px;
+    width: 131px;
     height: 35px;
     float: right;
     background: #f9571c;
     display: block;
     border-radius: 0 5px 5px 0;
-    margin-right: -9px;
+    margin-right: -2px;
 
 
 }
